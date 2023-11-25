@@ -1,0 +1,144 @@
+.navbar {
+  width: 100%;
+  height: 10vh;
+  border: 1px solid rgb(1, 1, 1);
+  background-color: rgba(25, 36, 25, 0.585);
+  padding-left: 30px;
+
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  color: rgba(30, 221, 221, 0.621);
+  -webkit-text-stroke: 1px black;
+}
+
+.content_area {
+  width: 100%;
+  height: 90vh;
+  border: 1px solid rgb(1, 1, 1);
+  background-size: cover;
+  padding: 3vh 3vw;
+}
+.mainArea {
+  display: flex;
+  flex-direction: row;
+  height: 75vh;
+  justify-content: space-between;
+}
+
+.comman {
+  width: 30%;
+  border: 1px solid rgb(1, 1, 1);
+}
+
+#div1 {
+  background-color: rgba(75, 75, 75, 0.585);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1vw;
+}
+
+#div1 .templates {
+  border: 1px solid black;
+  height: 15vh;
+  color: white;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  padding: 3%;
+}
+#div1 .templates p {
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgb(144, 123, 164) 0%,
+    rgb(45, 45, 45) 50%,
+    rgb(144, 123, 164) 100%
+  );
+  text-align: center;
+}
+#div2 {
+  background-color: rgba(47, 52, 47, 0.585);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+#div2 .buttonBar {
+  margin-top: 2vh;
+  height: 9vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: rgba(47, 52, 47, 0.585);
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+#div2 .buttonBar button {
+  width: 30%;
+  height: 100%;
+
+  margin: 2%;
+  color: orange;
+  background-color: transparent;
+  font-size: xx-large;
+}
+#div3 {
+  background-color: rgba(47, 52, 47, 0.585);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1vw;
+}
+
+#div3 .songtag {
+  color: rgba(30, 221, 221, 0.621);
+  background: linear-gradient(
+    270deg,
+    rgb(105, 105, 105) 0%,
+    rgb(45, 45, 45) 100%
+  );
+  padding: 10px;
+  padding-left: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.songtagRun {
+  color: rgba(30, 221, 221, 0.882);
+  border: 2px solid rgb(156, 156, 156);
+}
+#div3 .songtag p {
+  font-size: large;
+}
+
+#div4 {
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 2%;
+
+}
+#progress{
+  width: 70%;
+  /* border: 1px solid red; */
+}
+#progress input{
+  width: 80%;
+  margin: 0% 3%;
+ 
+}
+#Volume{
+  width: 20%;
+   /* border: 1px solid red; */
+}
+#Volume input{
+  width: 60%;
+  margin: 0% 7%;
+ 
+}
+
+
+
