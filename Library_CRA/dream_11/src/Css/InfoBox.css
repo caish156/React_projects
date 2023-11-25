@@ -1,0 +1,119 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.playerInfo {
+  position: absolute;
+  z-index: 3;
+  /* border: 1px solid rgb(242, 8, 8); */
+  width: 28%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+  background-color: rgba(84, 59, 84, 0.3);
+  box-sizing: border-box;
+  margin-left: 20%;
+  overflow: hidden;
+}
+.myPlayerInfo {
+  position: absolute;
+  z-index: 3;
+  /* border: 1px solid rgb(242, 8, 8); */
+  width: 28%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+  background-color: rgba(84, 59, 84, 0.3);
+  box-sizing: border-box;
+  margin-left: 71.8%;
+  overflow: hidden;
+}
+
+.heading {
+  /* border: 1px solid black; */
+  background-color: rgba(84, 84, 124, 0.7);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px 20px 10px 15px;
+}
+.heading h3 {
+  font-size: 1.4rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+.item {
+  height: 5.3vh;
+  display: flex;
+  flex-direction: row;
+  margin: 0.23vh 0vw;
+ /* align-items: end; */
+  padding: 6px 15px 0px 15px;
+  justify-content: space-between;
+  background-color: rgba(68, 62, 62, 0.8);
+}
+
+#addButton{
+  padding: 0;
+  margin-left: 10px;
+  display: inline;
+ 
+  
+}
+.item p {
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+}
+.item p button {
+  color: rgb(255, 255, 255);
+  background: rgb(32, 75, 52);
+  width: 25px;
+}
+
+#captain {
+  color: red;
+}
+
+.dark {
+  background-color: rgba(244, 239, 239, 0.5);
+}
+
+.red {
+  color: rgb(255, 255, 255);
+  background-color: rgba(239, 33, 84, 0.54);
+}
+
+.green {
+  color: rgb(253, 253, 253);
+  background-color: rgba(19, 80, 7, 0.649);
+}
+
+.warning_panel {
+  margin-top: 63vh;
+  position: absolute;
+  padding-left: 3%;
+  width: 100%;
+  height: 20vh;
+}
+.warning_panel p {
+  margin: 1%;
+  width: 100%;
+  padding-left: 3%;
+  /* border: 1px solid black; */
+}
+.warn {
+  background-color: rgba(239, 33, 84, 0.94);
+}
+#remove {
+  background-color: rgba(239, 33, 84, 0.94);
+}
