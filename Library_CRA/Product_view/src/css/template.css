@@ -1,0 +1,37 @@
+.template {
+  width: 16vw;
+  height: 50vh;
+  /* border: 2px solid black; */
+  margin: 4vh 4vw;
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+  box-sizing: border-box;
+  justify-content: space-between;
+  background-color: rgba(251, 251, 251, 1);
+  box-shadow: 2px 2px 5px 5px rgba(37, 35, 35, 0.4),
+    -2px -2px 5px 5px rgba(37, 35, 35, 0.4);
+}
+.template img {
+  align-self: center;
+}
+.title {
+  font-size: large;
+  text-decoration: underline;
+}
+.amount {
+  font-size: medium;
+}
+.desc {
+  font-size: small;
+  overflow: hidden;
+}
+
+.imagediv {
+  align-self: center;
+  width: 10vw;
+  height: 27vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}

@@ -1,0 +1,28 @@
+#product_list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 20vw;
+  height: 88vh;
+  border: 1px solid black;
+  justify-content: space-around;
+  padding: 10vh, 0vw;
+ background: linear-gradient(180deg, rgba(89,76,102,1) 0%, rgba(80,126,129,1) 50%, rgba(89,76,102,1) 100%);;
+}
+
+.product_cat {
+    width: 70%;
+  text-align: justify;
+  padding: auto;
+  height: 8vh;
+  border: 3px solid rgba(52, 49, 49, 0.9);
+
+  box-shadow: 10px 10px 25px 8px rgba(67, 241, 209, 0.5);
+  background-color: rgb(108, 161, 201);
+  line-height: 8vh;
+  padding-left: 8%;
+  box-sizing: border-box;
+}
+.product_cat b {
+  margin-left: 10px;
+}

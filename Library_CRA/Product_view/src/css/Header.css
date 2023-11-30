@@ -1,0 +1,25 @@
+#header {
+  width: 99vw;
+  height: 12vh;
+  border: 1px solid black;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+ 
+  background-color: cadetblue;
+}
+#header b{
+    margin: 0px 0px 0px 20px;
+    font-size: 70px;
+    -webkit-text-fill-color: chocolate;
+    -webkit-text-stroke: 2px black;
+}
+
+ul{
+    margin: 10px 10px 10px 60px;
+}
+li
+{
+margin: 0px 20px;
+  display: inline;
+}
